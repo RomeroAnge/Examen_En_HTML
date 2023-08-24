@@ -4,42 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FinlandiaTurismo</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
-<body>
+<body class="pagina_completa">
     <header>
-        <nav><img src="src/img/icono1.jpg" alt="">
-          <li>VISITA FINLANDIA</li>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="Destinos.html">Destinos</a></li>
-          <li><a href="PlanificaTusRutas.html">Planifica Tus Rutas</a></li>
-          <li><a href="Reservas.html">Reservas</a></li>
-          <li><a href="">🔎</a></li>
-          <li><a href="">Twiter</a></li>
-          <li><a href="">Facebook</a></li></nav>
-    </header>
-    <section>
-        <img src="src/img/Fondo.jpg" alt="">
-    </section>
-    <section>
-        <article>
-            <h3>La Felicidad Forma Parte de Nosotros</h3>
-            <h1>EL PAIS MÁS FELIZ DEL MUNDO</h1>
-        </article>
-    </section>
-    <section>
-        <article><h3><a href="">Empieza tu Aventura</a></h3></article>
-    </section>
-    <footer>
-        <h3>Turismo</h3>
-        <h3>Otros Destinos</h3>
-        <h3>Descubre Finlandia</h3>
-        <nav>
-        <h3><a href="">Instagram</a>  <a href="">Facebook</a>  <a href="">Twiter</a>   <a href="">Youtube</a></h3>
-        <h4>2023 - VisitaFilandia
-            Cristhian Romero
-            Politicas de Privacidad
-        <a href="consultas.html">Consultas</a></h4>
+        <nav class="cabecera_izquierda">
+            <div class="cabecera_izquierda_imagen"><img  class="icono1"src="src/img/icono1.jpg" alt=""></div>
+            <div class="cabecera_izquierda_texto"><h1>VISITA</h1> 
+                <h2>FINLANDIA</h2></div>
         </nav>
+        <section class="cabecera_centro">
+            <a class="cabecera_centro_texto"target= "my_frame" href="inicio.html"><li>Inicio</li></a>
+            <a  class="cabecera_centro_texto"target= "my_frame" href="Destinos.html"><li>Destinos</li></a>
+            <a  class="cabecera_centro_texto"target= "my_frame" href="PlanificaTusRutas.html"><li>Planifica Tus Rutas</li></a>
+            <a  class="cabecera_centro_texto"target= "my_frame" href="Reservas.html"><li>Reservas</li></a>
+        </section>
+        <aside class="cabecera_derecha">
+            <nav class="cabecera_derecha_redes">
+                <div class="redes1">
+                    <img class="icono2"src="src/img/Twiter.png" alt="">
+                    <img class="icono3"src="src/img/facebook.png" alt="">
+                </div>
+            </nav>
+            <section class="cabecera_derecha_buscador">
+                <img class="icono4" src="src/img/lupa.png" alt="">
+            </section>
+        </aside>
+    </header>
+    <iframe name="my_frame" class="iframe" src="inicio.html"></iframe>
+    <footer>
+        <nav class="pie_izquierdo"><h3>Turismo</h3>
+        <h3>Otros Destinos</h3>
+        <h3>Descubre Finlandia</h3></nav>
+        <section class="pie_central">
+        <h3><img  class="icono5"src="src/img/instagram.png" alt=""><a class="centro_texto"href="">Instagram</a>  
+            <img  class="icono5"src="src/img/facebook.png" alt=""><a  class="centro_texto"href="">Facebook</a></h3>  
+        <h3><img  class="icono5"src="src/img/twiter.png" alt=""><a  class="centro_texto"href="">Twiter</a>   
+            <img  class="icono5"src="src/img/youtube.png" alt=""><a  class="centro_texto"href="">Youtube</a>
+        </h3>
+        <h1><a  class="centro_texto_t"href="consultas.html">Consultas</a></h1>
+        </section>
+        <aside class="pie_derecho">
+            <h3>2023 - VisitaFilandia</h3>
+            <h3>Cristhian Romero</h3>
+            <h3>Politicas de Privacidad</h3>
+        
+        </aside>
     </footer>
 </body>
 </html>
